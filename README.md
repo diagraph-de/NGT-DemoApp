@@ -1,9 +1,7 @@
 # NGT-DemoApp
 
 ## Overview
-NGT-DemoApp is a simple console application for communicating natively with a networked Diagraph NGT printer using ESC sequences. 
-
-It allows users to:
+NGT-DemoApp is a simple console application for communicating natively with a networked Diagraph NGT printer using ESC sequences. It allows users to:
 - Select a print slot.
 - Load and send a print format file.
 - Read and set printer variables.
@@ -62,6 +60,11 @@ Modify the `Main` method in `PrinterCommunication.cs` if you need to change defa
 - `SetPrinterVariables`: Allows the user to update variable values.
 - `CreateHeader`: Generates the necessary command headers.
 - `GetUserInput`: Handles user input with default values.
+
+## Documentation & Resources
+- [Diagraph NGT ESC Sequences Documentation (ZIP)](https://www.diagraph.de/wp-content/uploads/2022/07/NG-Esc-Sequences-V3_19.zip)
+- [Diagraph Website](https://www.diagraph.de/en/)
+- [Diagraph NGTAPI NuGet Package](https://www.nuget.org/packages/Diagraph-NGTAPI)
 
 ## Troubleshooting
 - **Error: Format file not found**: Ensure that the file exists on the desktop.
