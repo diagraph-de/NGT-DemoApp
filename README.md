@@ -1,7 +1,9 @@
 # NGT-DemoApp
 
 ## Overview
-NGT-DemoApp is a simple console application for communicating with a networked Diagraph NGT printer. It allows users to:
+NGT-DemoApp is a simple console application for communicating natively with a networked Diagraph NGT printer using ESC sequences. 
+
+It allows users to:
 - Select a print slot.
 - Load and send a print format file.
 - Read and set printer variables.
